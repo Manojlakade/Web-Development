@@ -1,0 +1,91 @@
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+}
+div{
+    border-width: 5px;
+    border-style:solid;
+    border-color:black;
+}
+h1{
+    /*border-width: 2px;
+    border-style:dashed;
+    border-color:green;
+    above code can also be written in short form as follows*/
+    border: 2px dashed green;
+}
+/*BORDER SIDES-we can controll border sidew also
+        border-left
+        border-right
+        border-top
+        bordre-bottom
+*/
+div{
+    border-right-color:blue;
+    border-bottom:2px dashed rgb(253, 5, 46);
+}
+
+/*BORDER RADIUDS-its gives curves to border corners
+    border-radius:10px;
+    - we can also controll a single corner also as below
+    border-top-right-radius:20px;
+*/
+div{
+    border-radius:10px;
+}
+
+/*PADDING - IT IS SPACE BETWEEN CONTENT AND BORDER
+
+    padding-left
+    padding-rigt
+    padding-top
+    padding-bottom
+
+    padding:30px i.e 30px padding in all four sides
+    padding:1px 2px i.e 1px in top&bottom and 2px in left&right
+    padding:1px 2px 3px i.e 1px in top, 2px in left&right,3px in bottom
+    #clockwise
+    padding:1px 2px 3px 4px i.e 1px in top, 2px in right,3px in bottom,4px in left
+*/
+
+
+/*MARGIN - SPACING BETWEEN  TWO BORDERS
+    margin-left
+    margin-rigt
+    margin-top
+    margin-bottom
+
+    margin:30px i.e 30px margin in all four sides
+    margin:1px 2px i.e 1px in top&bottom and 2px in left&right
+    margin:1px 2px 3px i.e 1px in top, 2px in left&right,3px in bottom
+    #clockwise
+    margin:1px 2px 3px 4px i.e 1px in top, 2px in right,3px in bottom,4px in left
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
