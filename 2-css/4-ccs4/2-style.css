@@ -8,9 +8,11 @@ div{
     /*transition-duration:2s;
     transition-delay:1s;*/
     /*shortcut to bring in center*/
+    /* transition shorthand
+    transion:property durastion timing function delay; */
     margin:0 auto;
-    margin-top:10px;
-    transition:margin-top 2s ease-in 1s;
+    margin-top:10px 
+    transition:margin-top 2s cubic-bezier(.29, 1.01, 1, -0.68) 1s;
 }
 div:hover{
     margin-top: 400px;

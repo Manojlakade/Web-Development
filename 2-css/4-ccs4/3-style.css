@@ -3,7 +3,7 @@ div{
     width:100px;
     background-color: hotpink;
     border: 2px solid black;
-    
+    margin: 0 auto;
 }
 /*transform*/
 
@@ -22,5 +22,15 @@ div{
 
 }*/
 #three{
-    transform
+    transform:translateX(100px);
+    /* transform:translate(x,y); */
+    /* transform:translatey(100px); */
+}
+
+#four{
+    transform:skew(30deg)
+}
+
+#five{
+    transform:translateX(160px) rotate(30deg)
 }
