@@ -1,4 +1,4 @@
-let color="uwbuy";
+let color="yellow";
 
 switch(color)
 {
