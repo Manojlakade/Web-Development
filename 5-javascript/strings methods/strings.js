@@ -1,3 +1,3 @@
-/* trim method rermoves black spaces before and after sting notr in middle */
+/* trim method rermoves black spaces before and after sting not in middle */
 let a="    krishna    ";
 console.log(a.trim());
