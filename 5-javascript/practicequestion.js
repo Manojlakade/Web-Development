@@ -26,7 +26,7 @@ else{
 
 
 //quest -4
-let a=10;
+/* let a=10;
 let b=20;
 let c=21;
 let min=0;
@@ -44,7 +44,7 @@ if (c>min)
 }
 console.log("maximum vale is ",min);
  */
-if (a>b)
+/* if (a>b)
 {
     if (a>c)
     {
@@ -63,4 +63,16 @@ else
     else{
         console.log("c is greatest");
     }
+}  */
+
+//question -5
+
+let a=10234;
+let b=67283723624;
+if (a%10==b%10)
+{
+    console.log("yes they both have same last digit");
 }
+else (
+    console.log("they dont have same last digit")
+)
