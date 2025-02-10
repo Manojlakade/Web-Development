@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a192f;
+    color: #ccd6f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: transparent;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ccd6f6;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #64ffda;
+}
+
+section {
+    padding: 80px 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #64ffda;
+    border-bottom: 2px solid #64ffda;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #112240;
+    color: #ccd6f6;
+    font-size: 0.9rem;
+}
+.social-links {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-button {
+    background-color: #64ffda;
+    color: #0a192f;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.social-button:hover {
+    background-color: #ccd6f6;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-image {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
