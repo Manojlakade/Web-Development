@@ -1,0 +1,17 @@
+.loader{
+    height: 120px;
+    width:120px;
+    border-radius: 50%;
+    border:16px solid #f3f3f3;
+    border-top:16px solid goldenrod;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        rotation:0deg;
+    }
+    100%{
+        rotation:360deg;
+    }
+}

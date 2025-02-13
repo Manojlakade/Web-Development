@@ -1,5 +1,0 @@
-child combinator
-span > button{
-
-}
-apply properties to only button elements in span attribute.

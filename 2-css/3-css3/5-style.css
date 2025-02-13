@@ -1,9 +1,0 @@
-h1{
-    border:2px solid black;
-    width:50%;
-}
-/* % relative unit 
- here h1 is child of body 
- so when we say 50% width of h1 
- it means 50% weidth of body tag
- */

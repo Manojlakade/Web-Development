@@ -1,0 +1,36 @@
+div{
+    height:50px;
+    width:100px;
+    background-color: hotpink;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+/*transform*/
+
+#one{
+    transform:rotate(45deg);
+    margin-top:100px;
+    
+}
+#two{
+    transform:scale(0.5);
+    
+}/*scale in both dir.*/ 
+    /*scaling can be done as follows aswell
+    transform:scale(0.5,2); i.e scale 0.5 in x direction and 2 in y direc.
+    transform:scalex(0.5); in x direction only,same as for Y
+
+}*/
+#three{
+    transform:translateX(100px);
+    /* transform:translate(x,y); */
+    /* transform:translatey(100px); */
+}
+
+#four{
+    transform:skew(30deg)
+}
+
+#five{
+    transform:translateX(160px) rotate(30deg)
+}
