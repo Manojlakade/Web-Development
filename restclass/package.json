@@ -1,0 +1,16 @@
+{
+  "name": "restclass",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "\\\\"
+  },
+  "author": "Manoj",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}
